@@ -10,9 +10,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.IntSize
 import ui.theme.PresentationTheme
-import androidx.compose.material.ripple.rememberRipple
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.drawscope.ContentDrawScope
 import androidx.compose.ui.input.pointer.pointerInput
 
 fun main() = Window("Jetpack Compose@Kotlin愛好会", IntSize(1920, 1080)) {
@@ -109,5 +106,7 @@ val slides: List<PresentationSlide> = listOf(
             "Desktop: https://www.jetbrains.com/lp/compose/",
         )
     ),
+    ImageSlide("Work@Mercari", "work_at_mercari.png"),
+    ImageSlide("Build@Mercari", "build_at_mercari.png"),
     TitleSlide("Have a nice Kotlin!", "Kotlin愛好会 Vol. 28")
 )
