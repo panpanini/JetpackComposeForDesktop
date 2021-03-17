@@ -12,7 +12,7 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun ImageScreen(title: String, image: ImageBitmap, contentDescription: String = "", modifier: Modifier = Modifier,) {
     ContentScreen(title, modifier) {
-        Box(contentAlignment = Alignment.Center, modifier = Modifier.fillMaxWidth().padding(top = 100.dp)) {
+        Box(contentAlignment = Alignment.Center, modifier = Modifier.fillMaxWidth()) {
             Image(
                 bitmap = image,
                 contentDescription = contentDescription
