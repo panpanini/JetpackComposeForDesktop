@@ -42,7 +42,7 @@ fun MainScreen(slides: List<PresentationSlide>) {
 
 val slides: List<PresentationSlide> = listOf(
     TitleSlide("(Jetpack) Compose", "Kotlin愛好会 Vol. 28"),
-    BulletSlide("About Me",
+    PaniniBulletSlide("About Me",
         listOf(
             "Matthew Vern / Panini",
             "Twitter: @panini_ja Github: panpanini",

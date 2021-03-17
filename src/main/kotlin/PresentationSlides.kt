@@ -1,5 +1,6 @@
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.imageResource
+import ui.screens.PaniniBulletScreen
 
 sealed class PresentationSlide {
     @Composable
@@ -25,5 +26,12 @@ data class BulletSlide(val title: String, val items: List<String>) : Presentatio
     @Composable
     override operator fun invoke() {
         BulletScreen(title, items)
+    }
+}
+
+data class PaniniBulletSlide(val title: String, val items: List<String>) : PresentationSlide() {
+    @Composable
+    override operator fun invoke() {
+        PaniniBulletScreen(title, items)
     }
 }
