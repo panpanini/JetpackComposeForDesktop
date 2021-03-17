@@ -14,7 +14,7 @@ fun ContentScreen(title: String, modifier: Modifier = Modifier, content: @Compos
         Column(modifier = Modifier.fillMaxSize().padding(top = 64.dp, start = 64.dp)) {
             Text(
                 text = title,
-                style = MaterialTheme.typography.h2,
+                style = MaterialTheme.typography.h3,
                 color = MaterialTheme.colors.secondary,
                 modifier = Modifier.padding(bottom = 64.dp)
             )
