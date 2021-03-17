@@ -101,4 +101,13 @@ val slides: List<PresentationSlide> = listOf(
             "No Android Architecture Component support (ViewModel, etc)"
         )
     ),
+    TitleSlide("Demo"),
+    BulletSlide(
+        "Summary",
+        listOf(
+            "Android: https://developer.android.com/jetpack/compose",
+            "Desktop: https://www.jetbrains.com/lp/compose/",
+        )
+    ),
+    TitleSlide("Have a nice Kotlin!", "Kotlin愛好会 Vol. 28")
 )
