@@ -14,6 +14,7 @@ val colors = lightColors(
 fun PresentationTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colors = colors,
-        content = content
+        content = content,
+        typography = typography
     )
 }
